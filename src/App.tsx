@@ -1,8 +1,10 @@
+import { TodoList } from './TodoList';
+// import './styles/TodoList.css';
 
 function App() {
   return (
-    <div>
-      <h1> Olá Mundo</h1>
+    <div className="container">
+      <TodoList />
     </div>
   );
 }
